@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/input_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:hint="Name"
+        android:inputType="textPersonName"/>
+
+    <EditText
+        android:id="@+id/input_birth"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:hint="Birth Date"
+        android:inputType="date"/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="Select Gender"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <RadioGroup
+        android:id="@+id/group_gender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radio_female"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Female"/>
+
+        <RadioButton
+            android:id="@+id/radio_male"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Male"/>
+
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/input_phone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:hint="Phone"
+        android:inputType="phone"/>
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:id="@+id/button_add"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/colorPrimaryDark"
+        android:elevation="4dp"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:text="Save"
+        android:textColor="#fff"/>
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:id="@+id/button_back"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/colorPrimaryDark"
+        android:elevation="4dp"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:text="Back"
+        android:textColor="#fff"/>
+
+
+</LinearLayout>
